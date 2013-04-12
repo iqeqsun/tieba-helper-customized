@@ -4,5 +4,6 @@
   * [FAQImages 图片类]
   * [FAQTexts 文字类]
   * [FAQColors 调色与夜间模式]
+  * [FAQFeaturesCustomized 按照功能修改教程]
   
   
