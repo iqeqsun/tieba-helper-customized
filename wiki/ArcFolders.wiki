@@ -4,12 +4,14 @@
 
 反解后的目录为：D:\tieba_helper\tbclient_3_4_0，*结构：*
 
-[folder_res.png]
+[http://tieba-helper-customized.googlecode.com/svn/wiki/raw/folder_res.png]
 
 
 更改文字，样式，图片，icon，应用名称，各种无需编程的东西，都修改 res 目录下的东西。其他不要动。
 
 *res目录下的文件夹结构如下：*
+
+[http://tieba-helper-customized.googlecode.com/svn/wiki/raw/folder_tbclient.png]
 
 
 上图中看到的图片目录有4个，用于自动为不同分辨率的手机提供不同清晰度的图片，以实现最佳的效果和最节省系统资源的平衡。
@@ -35,6 +37,4 @@ ldpi为低分辨率；mdpi为中等分辨率；hdpi为高分辨率；xhdpi为高
 
 
 另外修改strings.xml的时候，你会看到“\n某某某”。这里说下。“\n”的意思是换行，就是另起1个新行；还有“\t”就是对应键盘上Tab键按下的效果。要是需要文字换行，写\n，不要傻乎乎的在strings.xml里面直接回车折行。
-
-
 
