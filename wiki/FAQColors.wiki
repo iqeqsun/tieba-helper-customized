@@ -9,7 +9,7 @@
 
 xxx.png 是白天模式的图，xxx_1.png 是夜间模式的图。除了多了_1，名字其他部分完全一样。
 
- 好比个人中心下那个模块框框的背景图，白天模式下使用的背景图是 person_button_normal.9.png，晚上模式使用的就是 person_button_normal_1.9.png 
+好比个人中心下那个模块框框的背景图，白天模式下使用的背景图是person_button_normal.9.png，晚上模式使用的就是 person_button_normal_1.9.png 
 
 
 === 文字的颜色 ===
@@ -24,8 +24,6 @@ xxx.png 是白天模式的图，xxx_1.png 是夜间模式的图。除了多了_1
 
 
 【很多颜色的name都写明了用途，如果你分析出来了新的，可以告诉我。】
-
-
 
 
 
