@@ -25,9 +25,9 @@
 === 默认的小尾巴 ===
 
 `<string name="tail_default_tail">普通帖子默认的小尾巴</string>`
+
 `<string name="tail_default_lzl_tail">楼中楼默认的小尾巴</string>`
 
+
 【注意那些空格不是普通的空格，最好复制粘贴，不要按空格键重新打】
-
-
 
