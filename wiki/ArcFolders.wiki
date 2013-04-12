@@ -36,3 +36,19 @@ ldpi为低分辨率；mdpi为中等分辨率；hdpi为高分辨率；xhdpi为高
 
 
 另外修改strings.xml的时候，你会看到“\n某某某”。这里说下。“\n”的意思是换行，就是另起1个新行；还有“\t”就是对应键盘上Tab键按下的效果。要是需要文字换行，写\n，不要傻乎乎的在strings.xml里面直接回车折行。
+
+
+=== 对于 .9.png 的图片 ===
+
+
+这里有一个详细的介绍【英文的】：[http://code.google.com/p/android-apktool/wiki/9PatchImages]
+
+
+其他资源和介绍请补充。
+
+
+
+
+
+
+
