@@ -59,6 +59,7 @@ D:\tieba_helper\apktool1.5.2\apktool b -f
 cd dist
 
 D:\tieba_helper\apktool1.5.2\SunJDK7\bin\jarsigner -verbose -sigalg MD5withRSA -digestalg SHA1 -keystore D:\tieba_helper\apktool1.5.2\tieba_helper_modified.key tbclient_3_4_0.apk "tieba_helper_modified"
+
 tiebahelper
 
 
