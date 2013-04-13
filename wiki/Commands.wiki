@@ -12,12 +12,18 @@
 
 #将下面------------线前面的所有东西复制粘贴到打开的控制台中执行
 
+<br><br>
+
 PATH %PATH%D:\tieba_helper\apktool1.5.2\platform-tools\SunJDK7\bin
 
 d:
+
 cd D:\tieba_helper
+
 D:\tieba_helper\apktool1.5.2\apktool d -f tbclient_3_4_0.apk
 
+
+<br><br>
 
 
 #------------------------------------------------
@@ -40,9 +46,12 @@ D:\tieba_helper\apktool1.5.2\apktool d -f tbclient_3_4_0.apk
 #将下面------------线前面的所有东西复制粘贴到打开的控制台中执行（复制的时候包括空行也要复制）
 
 
+<br><br>
+
 PATH %PATH%D:\tieba_helper\apktool1.5.2\platform-tools
 
 d:
+
 cd D:\tieba_helper\tbclient_3_4_0
 
 D:\tieba_helper\apktool1.5.2\apktool b -f
@@ -53,10 +62,14 @@ D:\tieba_helper\apktool1.5.2\SunJDK7\bin\jarsigner -verbose -sigalg MD5withRSA -
 tiebahelper
 
 
+<br><br>
+
 #------------------------------------------------
 
 #第2步：将下面------------线前面的所有内容复制，然后粘贴到控制台中执行。和第1步的要分开复制执行，否则有时候会断掉。
 
+
+<br><br>
 
 
 D:\tieba_helper\apktool1.5.2\SunJDK7\bin\jarsigner -verify -verbose tbclient_3_4_0.apk
@@ -69,6 +82,8 @@ cd D:\tieba_helper\
 dir
 
 
+<br><br>
+
 
 #------------------------------------------------
 
@@ -77,5 +92,3 @@ dir
 #安装到自己的手机上试试效果吧。
 
 #注意：由于签名不同，安装前请先从手机上删掉我们提供的助手版贴吧应用，否则是安装不了的。
-
-
