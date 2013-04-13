@@ -7,7 +7,9 @@
 
 
 #下载要修改的助手版贴吧客户端，将下载的应用包重命名为 tbclient_3_4_0.apk，放到 D:\tieba_helper 目录下。
+
 #同时按下 Windows + R 键，输入 cmd 按回车。
+
 #将下面------------线前面的所有东西复制粘贴到打开的控制台中执行
 
 PATH %PATH%D:\tieba_helper\apktool1.5.2\platform-tools\SunJDK7\bin
@@ -19,8 +21,8 @@ D:\tieba_helper\apktool1.5.2\apktool d -f tbclient_3_4_0.apk
 
 
 #------------------------------------------------
+
 #执行完成后，你应该可以看到一个 tbclient_3_4_0 目录。这就解开成功了。
-#常用的修改可能会有更新，所以放到在线教程了，看这里：http://blog.sina.com.cn/s/blog_b1dffc3b010172dq.html
 
 
 
@@ -30,9 +32,13 @@ D:\tieba_helper\apktool1.5.2\apktool d -f tbclient_3_4_0.apk
 
 
 #打包分为2个步骤
+
 #第1步： 
+
 #同时按下 Windows + R 键，输入 cmd 按回车。
+
 #将下面------------线前面的所有东西复制粘贴到打开的控制台中执行（复制的时候包括空行也要复制）
+
 
 PATH %PATH%D:\tieba_helper\apktool1.5.2\platform-tools
 
@@ -48,7 +54,9 @@ tiebahelper
 
 
 #------------------------------------------------
+
 #第2步：将下面------------线前面的所有内容复制，然后粘贴到控制台中执行。和第1步的要分开复制执行，否则有时候会断掉。
+
 
 
 D:\tieba_helper\apktool1.5.2\SunJDK7\bin\jarsigner -verify -verbose tbclient_3_4_0.apk
@@ -61,9 +69,13 @@ cd D:\tieba_helper\
 dir
 
 
+
 #------------------------------------------------
+
 #进入 D:\tieba_helper\ 目录，看出现了一个 TiebaHelper_modified_build_3_4_0.apk ，看下修改时间是不是刚刚创建的。这就是打包好的新应用了。
+
 #安装到自己的手机上试试效果吧。
+
 #注意：由于签名不同，安装前请先从手机上删掉我们提供的助手版贴吧应用，否则是安装不了的。
 
 
