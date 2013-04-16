@@ -25,9 +25,8 @@
 }}}
 
 
-4. res/layout 变化：新增 tbhp_em_group* 2个文件；修改了 tbhp_other_more.xml 1个文件。
+4. res/layout 变化：新增 tbhp_em_group_xx 2个文件；修改了 tbhp_other_more.xml 1个文件。
 
 5. 覆盖 AndroidManifest.xml 文件
 
 6. res/drawable|drawable-hdpi|drawable-mdpi 3个目录下新增 drag.9.png 图片。用于表情组重新排序时的拖动按钮。 
-
