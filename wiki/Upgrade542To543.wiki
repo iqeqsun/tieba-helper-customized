@@ -17,6 +17,8 @@
 
 版本号改成5.4.3[两处]
 
+这里改动了下：`<string name="feedback">意见反馈[不看置顶的提问帖直接删]</string>`
+
 文件最后增加3行：
 {{{
     <string name="em_settings">开启隐藏的表情</string>
