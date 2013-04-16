@@ -6,5 +6,6 @@
   * [FAQTexts 文字类]
   * [FAQColors 调色与夜间模式]
   * [FAQFeaturesCustomized 按照功能修改教程]
-  
+  * 版本升级帮助：
+    * [Upgrade542To543 5.4.2->5.4.3]
   
