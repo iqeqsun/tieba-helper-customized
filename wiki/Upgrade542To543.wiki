@@ -15,9 +15,13 @@
 
 3. res/values/strings.xml 改动：
 
-版本号改成5.4.3[两处]
+文件修改：
+{{{
+    <string name="tbhp_version">版本：官方贴吧3.4.0，贴吧助手5.4.3覆盖版</string>
+    <string name="tbhp_version_num">5.4.3</string>
+    <string name="feedback">意见反馈[不看置顶的提问帖直接删]</string>
+}}}
 
-这里改动了下：`<string name="feedback">意见反馈[不看置顶的提问帖直接删]</string>`
 
 文件最后增加3行：
 {{{
