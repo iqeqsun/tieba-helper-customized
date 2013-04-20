@@ -8,4 +8,7 @@
   * [FAQFeaturesCustomized 按照功能修改教程]
   * 版本升级帮助：
     * [Upgrade542To543 5.4.2->5.4.3]
-  
+    * [Upgrade543To544 5.4.3->5.4.4]
+  * DIY版本推荐：
+    * [RecommDIYList 优秀的DIY版本推荐列表]
+ 
