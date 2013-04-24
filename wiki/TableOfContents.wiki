@@ -1,4 +1,4 @@
-  * [HomePage 协议与修改指南] 
+  * [HomePage DIY协议与指南] 
   * [Commands 解开与打包命令]
   * [ArcFolders 反解后目录结构介绍]
   * 常见修改内容教程：
