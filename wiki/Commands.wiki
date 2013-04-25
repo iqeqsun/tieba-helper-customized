@@ -34,7 +34,7 @@ D:\tieba_helper\apktool1.5.2\apktool d -f tbclient_3_4_0.apk
 
 
 
-=== 打包修改的目录为应用程序 ===
+=== 打包修改的目录为应用程序并进行签名 ===
 
 
 #打包分为2个步骤
