@@ -6,6 +6,7 @@
   * [FAQTexts 文字类]
   * [FAQColors 调色与夜间模式]
   * [FAQFeaturesCustomized 按照功能修改教程]
+  * [FAQGoogleMap 身边地图无法显示的解决方法]
   * 版本升级帮助：
     * [Upgrade542To543 5.4.2->5.4.3]
     * [Upgrade543To544 5.4.3->5.4.4]
