@@ -23,15 +23,17 @@
 <br>
 *覆盖版 -- 安装前需要先卸载百度官方贴吧客户端和其他助手覆盖版客户端 *
 || *版本名称* || *基于助手* || *夜间模式* || *亮点* || *作者* || *介绍与下载地址* ||
-|| 精简版 || 6.2.0 || 默认 || 可选身边+裁减 || hpe8 || [http://www.fmsjw.cn/archives/tiebahelper620.html] ||
+|| 精简版 || 6.2.0 || 默认 || 可选身边+精简+重力 || hpe8 || [http://www.fmsjw.cn/archives/tiebahelper620.html] ||
 || 深海奇遇 || 6.2.0 || 默认 || 基于精简版 || 拜拜就读 || [http://tieba.baidu.com/p/2438061190] 1楼 ||
 
 
 <br>
 *共存版 -- 与所有版本都可以共同使用，不用卸载之前的。共存版之间也可以一起安装。 *
 || *版本名称* || *基于助手* || *夜间模式* || *亮点* || *作者* || *介绍与下载地址* ||
-|| 精简版 || 6.2.0 || 默认 || 可选身边+裁减 || hpe8 || [http://www.fmsjw.cn/archives/tiebahelper620.html] ||
+|| 精简版 || 6.2.0 || 默认 || 去身边+裁减+重力 || hpe8 || [http://www.fmsjw.cn/archives/tiebahelper620.html] ||
 || 可爱摩丝 || 6.2.0 || 默认 || 基于精简版 || 拜拜就读 || [http://tieba.baidu.com/p/2435836699] 1楼－注意只支持高分辨率 ||
+|| 小霸王 || 6.2.0 || 默认 || 去身边+精简+重力 || hpe8 || [http://www.fmsjw.cn/archives/tiebahelper620.html] ||
+|| 阿狸 || 6.2.0 || 默认 || 去身边+精简+重力 || hpe8 || [http://www.fmsjw.cn/archives/tiebahelper620.html] ||
 
 
 
