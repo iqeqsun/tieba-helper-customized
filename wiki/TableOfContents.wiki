@@ -1,4 +1,5 @@
-  * [HomePage DIY协议与指南] 
+  * [HomePage DIY协议与指南]
+  * [FAQThemeGuide 制作皮肤包] 
   * [Commands 解开与打包命令]
   * [ArcFolders 反解后目录结构介绍]
   * 常见修改内容教程：
@@ -6,7 +7,6 @@
   * [FAQTexts 文字类]
   * [FAQColors 调色与夜间模式]
   * [FAQFeaturesCustomized 按照功能修改教程]
-  * [FAQGoogleMap 身边地图无法显示的解决方法]
   * 版本升级帮助：
     * [Upgrade542To543 5.4.2->5.4.3]
     * [Upgrade543To544 5.4.3->5.4.4]
