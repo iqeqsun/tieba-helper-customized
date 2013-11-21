@@ -79,12 +79,6 @@ tail_default_tail：默认小尾巴内容
 
 tail_default_lzl_tail：默认楼中楼小尾巴内容
 
-other_more_barlistnum_before_hide：进吧页面，如果不隐藏下面的每日一吧和吧目录，显示的我喜欢的吧数量。
-
-other_more_barlistnum_after_hide：进吧页面，如果隐藏了下面的东西，显示的我喜欢的吧的数量。好比如果你设置成1000，则会全部展开所有贴吧。
-
-other_more_barlist_show_avatar：进吧页是否加载图片【图片需要自己隐藏，这里只是告诉代码不要下载图片，用来节省流量】。
-
 
 
 
