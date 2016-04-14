@@ -1,0 +1,53 @@
+# 安卓文件目录和修改方法入门介绍
+
+## 反解后目录介绍 ##
+
+反解后的目录为：D:\tieba\_helper\tbclient\_3\_4\_0，**结构：**
+
+![http://tieba-helper-customized.googlecode.com/svn/wiki/raw/folder_tbclient.png](http://tieba-helper-customized.googlecode.com/svn/wiki/raw/folder_tbclient.png)
+
+更改文字，样式，图片，icon，应用名称，各种无需编程的东西，都修改 res 目录下的东西。其他不要动。
+
+**res目录下的文件夹结构如下：**
+
+![http://tieba-helper-customized.googlecode.com/svn/wiki/raw/folder_res.png](http://tieba-helper-customized.googlecode.com/svn/wiki/raw/folder_res.png)
+
+
+上图中看到的图片目录有4个，用于自动为不同分辨率的手机提供不同清晰度的图片，以实现最佳的效果和最节省系统资源的平衡。
+
+ldpi为低分辨率；mdpi为中等分辨率；hdpi为高分辨率；xhdpi为高清分辨率，好比现在的小米2等新机子用的就是这个xhdpi。
+
+一般情况下，这些目录中的图片应该是数量和名字完全一样的，对应不同分辨率的手机使用。不过太麻烦，于是有些图只在hdpi有一份，这个时候手机会发现自己对应分辨率的图片目录缺图，就自动从更高分辨率目录获取图然后自动缩放了，不会出错。
+
+更换图片的话，先在hdpi找到图片，然后看另外3个目录同名的图有几份，一定要换全了。换得时候名字和尺寸保持原样。注意只能替换，不能少图也不能多加图，否则打包会出问题。
+
+图片名字含有.9的图不要动，除非你明白.9图片是怎么回事。安卓对这种图有特殊处理。
+
+如果尺寸不一样，好比把hdpi的图直接复制到mdpi目录中，寻求在中等分辨率手机下显示的更清楚，我没有测试过，你可以试试效果如何。
+
+**values目录下有2个文件比较常用：**
+
+  * colors.xml 用于定义颜色；
+
+  * strings.xml用于定义所有要显示的文字，好比你要是把这里面都改成英文，差不多就是一个英文版的贴吧客户端了。
+
+
+这两个都是文本文件，可以用记事本打开做修改。【注意修改所有文字类文件的时候，用记事本或是其他专业文本编辑器。不能使用word，wps和写字版之类能做排版的软件，排版只能用英文的空格，其他一概出错。】
+
+
+另外修改strings.xml的时候，你会看到“\n某某某”。这里说下。“\n”的意思是换行，就是另起1个新行；还有“\t”就是对应键盘上Tab键按下的效果。要是需要文字换行，写\n，不要傻乎乎的在strings.xml里面直接回车折行。
+
+
+### 对于 .9.png 的图片 ###
+
+
+这里有一个详细的介绍【英文的】：http://code.google.com/p/android-apktool/wiki/9PatchImages
+
+
+其他资源和介绍请补充。
+
+
+
+
+
+

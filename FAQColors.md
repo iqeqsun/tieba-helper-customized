@@ -1,0 +1,26 @@
+## 修改 res/values/strings.xml 文件 ##
+
+贴吧客户端上的各种背景颜色主要是靠图片来完成的，各种图片，就是drawable-hdpi下面的一大堆东西。
+
+你可以先分析drawable文件夹下面的.xml文本文件，根据名字寻找线索，找到图片，然后替换。
+
+
+### 图片的命名规则是 ###
+
+xxx.png 是白天模式的图，xxx\_1.png 是夜间模式的图。除了多了`_`1，名字其他部分完全一样。
+
+好比个人中心下那个模块框框的背景图，白天模式下使用的背景图是person\_button\_normal.9.png，晚上模式使用的就是 person\_button\_normal\_1.9.png
+
+
+### 文字的颜色 ###
+
+修改 res/values/colors.xml 文件对应的项即可。
+
+我用的不多，于是查的也不多：
+
+白天文字的颜色：`<color name="more_color">#ff3b3b3b</color>`
+
+夜晚文字的颜色：`<color name="skin_1_common_color">#ff919191</color>`
+
+
+【很多颜色的name都写明了用途，如果你分析出来了新的，发评论。】

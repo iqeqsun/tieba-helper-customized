@@ -1,0 +1,38 @@
+#5.4.2到5.4.3升级帮助
+
+## 功能变化 ##
+
+1. 修改一些导致闪退的bug；
+
+2. 增加了发帖表情组的选择和重新排序，并对VIP用户开放了很多隐藏的表情。
+
+
+# 代码修改方法 #
+
+1. smali 目录全部覆盖
+
+2. res/values 目录下 覆盖attrs.xml, ids.xml
+
+3. res/values/strings.xml 改动：
+
+文件修改：
+```
+    <string name="tbhp_version">版本：官方贴吧3.4.0，贴吧助手5.4.3覆盖版</string>
+    <string name="tbhp_version_num">5.4.3</string>
+    <string name="feedback">意见反馈[不看置顶的提问帖直接删]</string>
+```
+
+
+文件最后增加3行：
+```
+    <string name="em_settings">开启隐藏的表情</string>
+    <string name="em_help">可拖动排序，预览和帮助点右上。</string>
+    <string name="help">帮助</string>
+```
+
+
+4. res/layout 变化：新增 tbhp\_em\_group\_xx 2个文件；修改了 tbhp\_other\_more.xml 1个文件。
+
+5. 覆盖 AndroidManifest.xml 文件
+
+6. res/drawable|drawable-hdpi|drawable-mdpi 3个目录下新增 drag.9.png 图片。用于表情组重新排序时的拖动按钮。

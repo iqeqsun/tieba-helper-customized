@@ -1,0 +1,95 @@
+# 命令
+
+**说明：** 由于发布的命令有时候要补充下，于是还是在线版来的好。用这个，不要用下载里面提供的。
+
+
+### 解开应用包 ###
+
+
+#下载要修改的助手版贴吧客户端，将下载的应用包重命名为 tbclient\_3\_4\_0.apk，放到 D:\tieba\_helper 目录下。
+
+#同时按下 Windows + R 键，输入 cmd 按回车。
+
+#将下面------------线前面的所有东西复制粘贴到打开的控制台中执行
+
+<br><br>
+
+PATH %PATH%D:\tieba_helper\apktool1.5.2\platform-tools\SunJDK7\bin<br>
+<br>
+d:<br>
+<br>
+cd D:\tieba_helper<br>
+<br>
+D:\tieba_helper\apktool1.5.2\apktool d -f tbclient_3_4_0.apk<br>
+<br>
+<br>
+<br><br>
+
+
+#------------------------------------------------<br>
+<br>
+#执行完成后，你应该可以看到一个 tbclient_3_4_0 目录。这就解开成功了。<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h3>打包修改的目录为应用程序并进行签名</h3>
+
+
+#打包分为2个步骤<br>
+<br>
+#第1步：<br>
+<br>
+#同时按下 Windows + R 键，输入 cmd 按回车。<br>
+<br>
+#将下面------------线前面的所有东西复制粘贴到打开的控制台中执行（复制的时候包括空行也要复制）<br>
+<br>
+<br>
+<br><br>
+
+PATH %PATH%D:\tieba_helper\apktool1.5.2\platform-tools<br>
+<br>
+d:<br>
+<br>
+cd D:\tieba_helper\tbclient_3_4_0<br>
+<br>
+D:\tieba_helper\apktool1.5.2\apktool b -f<br>
+<br>
+cd dist<br>
+<br>
+D:\tieba_helper\apktool1.5.2\SunJDK7\bin\jarsigner -verbose -sigalg MD5withRSA -digestalg SHA1 -keystore D:\tieba_helper\apktool1.5.2\tieba_helper_modified.key tbclient_3_4_0.apk "tieba_helper_modified"<br>
+<br>
+tiebahelper<br>
+<br>
+<br>
+<br><br>
+
+#------------------------------------------------<br>
+<br>
+#第2步：将下面------------线前面的所有内容复制，然后粘贴到控制台中执行。和第1步的要分开复制执行，否则有时候会断掉。<br>
+<br>
+<br>
+<br><br>
+
+
+D:\tieba_helper\apktool1.5.2\SunJDK7\bin\jarsigner -verify -verbose tbclient_3_4_0.apk<br>
+<br>
+<br>
+D:\tieba_helper\apktool1.5.2\zipalign -v -f 4 tbclient_3_4_0.apk ../../TiebaHelper_modified_build_3_4_0.apk<br>
+<br>
+cd D:\tieba_helper\<br>
+<br>
+dir<br>
+<br>
+<br>
+<br><br>
+
+
+#------------------------------------------------<br>
+<br>
+#进入 D:\tieba_helper\ 目录，看出现了一个 TiebaHelper_modified_build_3_4_0.apk ，看下修改时间是不是刚刚创建的。这就是打包好的新应用了。<br>
+<br>
+#安装到自己的手机上试试效果吧。<br>
+<br>
+#注意：由于签名不同，安装前请先从手机上删掉我们提供的助手版贴吧应用，否则是安装不了的。
